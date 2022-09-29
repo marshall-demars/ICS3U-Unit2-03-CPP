@@ -9,7 +9,7 @@
 
 int main() {
     // this function calculates circumference of a circle
-    const int TAU = 6.28;
+    const double TAU = 6.28;
     int radiusOfCircle;
     double circumferenceOfCircle;
 
@@ -21,7 +21,8 @@ int main() {
     circumferenceOfCircle = TAU * radiusOfCircle;
 
     // output
-    std::cout << "\nCircumference is " << (circumferenceOfCircle) << " mm." << std::endl;
+    std::cout << "\nCircumference is " << circumferenceOfCircle << " mm."
+        << std::endl;
 
     std::cout << "\nDone." << std::endl;
 }
